@@ -57,12 +57,25 @@
 
 //Object de struture
 
-const Course = {
-    courseInstructor: "Hitesh",
-    courseName: "Javascript",
-}
+// const Course = {
+//     courseInstructor: "Hitesh",
+//     courseName: "Javascript",
+// }
 
-console.log(Course.courseInstructor);
-const {courseInstructor: Instructor} = Course;
-console.log(Instructor);
+// console.log(Course.courseInstructor);
+// const {courseInstructor: Instructor} = Course;
+// console.log(Instructor);
 
+//JSON syntax 
+
+// {
+//     "courseName": "Javascript",
+//     "courseInstructor": "Hitesh",
+// }
+
+//JSON= Javscript Object Notation
+// [
+//     {},
+//     {},
+//     {},
+// ]
