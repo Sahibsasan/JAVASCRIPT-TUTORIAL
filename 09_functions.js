@@ -32,22 +32,49 @@ function sayMyName(){
 // console.log("Result: ", result);
 
 
-function loginUserMessage(username){
-    if(!username){
+// function loginUserMessage(username){
+    // if(!username){
     // we have to check whether the username is entered or it is undefined.
     // so we can use 2 methods for it: 
     //  1)  if(username === undefined){}
     //  2)  if(!username){}  Both have same meaning
 
-        console.log("Please enter a username");
-        return 
-    }
-    else{
-        return `${username} just logged in` 
+        // console.log("Please enter a username");
+        // return 
+    // }
+        // return `${username} just logged in`     
+// }
 
-    }
+// console.log(loginUserMessage("Sahibsasan"))
+// console.log(loginUserMessage(""))
+// console.log(loginUserMessage())
+
+// function calculateCartPrice(...num1){  // ... is known as rest or spread operator used to add multiple values for function into array.
+// function calculateCartPrice(val1,val2, ...num1){ //in this case val1=400, val2=500 and rest will go into array [210,2000]
+    // return num1
+// }
+
+// console.log(calculateCartPrice(400,500,210,2000))
+
+// const user = {
+//     username: "Sahib",
+//     price: 999
+// }
+
+// function handleMyObject(anyObject){
+//     console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+// }
+
+// handleMyObject(user)
+// handleMyObject({
+//     username: "Sahib",
+//     price: 999
+// })
+
+const newArray = [100, 150, 200, 250]
+
+function returnSecondIndex(getArray){
+    return getArray[2]
 }
 
-console.log(loginUserMessage("Sahibsasan"))
-console.log(loginUserMessage(""))
-console.log(loginUserMessage())
+console.log(returnSecondIndex(newArray))
