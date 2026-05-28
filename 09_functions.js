@@ -71,10 +71,11 @@ function sayMyName(){
 //     price: 999
 // })
 
-const newArray = [100, 150, 200, 250]
+// const newArray = [100, 150, 200, 250]
 
-function returnSecondIndex(getArray){
-    return getArray[2]
-}
+// function returnSecondValue(getArray){
+//     return getArray[1]
+// }
 
-console.log(returnSecondIndex(newArray))
+// console.log(returnSecondValue(newArray))
+// console.log(returnSecondValue([100,200,300,400]))
