@@ -44,7 +44,8 @@ function addOne(num){
 }
 
 
-function addTwo(num){
+// console.log(addTwo(5))  //here it shows error because function is held in a variable.
+const addTwo = function(num){
     return num + 2
 }
 
