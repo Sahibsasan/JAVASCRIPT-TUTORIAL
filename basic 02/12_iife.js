@@ -4,10 +4,11 @@
 //SYNTAX :-
 // (function functionName(){
 //         console.log("")
-// })() //execution parenthesis  (we can pass input as well.)
+// })(); //execution parenthesis  (we can pass input as well.)
 
 
 // (function database(){
+            //NAMED IIFE
 //     console.log("DB CONNECTED")
 // })();
 
@@ -18,7 +19,9 @@
 // })();
 
 
-((user) => {
-    console.log(`Hello JS user, ${user}`);
-    
-})("Sahib");
+// ((name) => {   
+        //UNNAMED IIFE
+
+//     console.log(`Hello JS user, ${name}`);
+// })("Sahib");   //It terminates with ;
+
