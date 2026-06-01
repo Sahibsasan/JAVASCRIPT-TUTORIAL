@@ -34,7 +34,26 @@
 // }
 
 
-const emptyObj = {}
-if(Object.keys(emptyObj).length === 0){
-    console.log("Object is empty");
-}
+// const emptyObj = {}
+// if(Object.keys(emptyObj).length === 0){
+//     console.log("Object is empty");
+// }
+
+// Nullish coalescing operator (??) - It returns the right-hand operand when the left-hand operand is null or undefined, otherwise it returns the left-hand operand.
+
+// let val1 = 5 ?? 10;   //5
+// let val2 = null ?? 10;   //10
+// let val3 = undefined ?? 10;
+// console.log(val1);
+// console.log(val2);
+// console.log(val3);
+
+
+//ternary operator
+// condition ? expressionIfTrue : expressionIFFalse
+
+// const age = 20;
+// age >= 18 ? console.log("You can vote") : console.log("You cannot vote"); 
+
+
+

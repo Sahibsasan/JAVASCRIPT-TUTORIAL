@@ -7,7 +7,7 @@
 //         console.log(this);
 //     }
     
-// }
+// }   //this keyword is used to access the properties of the object. It refers to the current object.
 
 // user.welcomeMessage();
 // user.username = "gurnoor";
