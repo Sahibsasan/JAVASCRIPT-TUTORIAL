@@ -14,7 +14,7 @@
 
 //DO-WHILE LOOP
 
-let score = 1;
+let score = 11;
 
 do{
     console.log(`Your score is ${score}`);
