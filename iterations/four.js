@@ -1,3 +1,4 @@
+// forIn loop
 const myObject = {
     js : 'JavaScript',
     py : 'Python',

@@ -1,4 +1,5 @@
-const coding = ["js", "py", "rb", "Cpp"]
+//forEach loop
+// const coding = ["js", "py", "rb", "Cpp"]
 
 // coding.forEach(function (val){
 //     console.log(val);
