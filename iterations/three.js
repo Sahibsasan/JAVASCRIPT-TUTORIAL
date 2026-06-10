@@ -3,7 +3,7 @@
 const arr = [1, 2, 3, 4, 5, 6]
 
 for (const num of arr) {
-    // console.log(num);
+    // console.log(num); //1, 2, 3, 4, 5, 6
 }
 
 const greetings = "Hello World";
