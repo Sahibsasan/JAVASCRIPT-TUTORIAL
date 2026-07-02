@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in JS</title>
+</head>
+<body>
+    <h2>Event Handling in JavaScript</h2>
+    <button onclick = "console.log('Button was clicked'), alert('Hello')">Click Me</button>
+
+
+    <script>
+        const button = document.querySelector('button')
+        button.addEventListener('click', function(){
+            console.log('Button was clicked')
+            alert('Hello')
+        })
+    </script>
+</body>
+</html>
